@@ -1,0 +1,762 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+h1{
+	font-size: 70px;
+	font-family: "lato";
+	line-height: 0;
+}
+h3{
+	font-size: 40px;
+	font-family: "condiment";
+	line-height: 0;
+}
+.about-title{
+	font-family: "lato";
+	float: right;
+	padding: 40px 25px;
+}
+.project-title{
+	font-family: "lato";
+	position: absolute;
+	top: 5%;
+	left: 44%;
+}
+.contact-title{
+	font-family: "lato";
+}
+.contact-tagline{
+	font-family: "lato";
+	color: lightblue;
+}
+h2{
+	font-size: 20px;
+	font-family: "commissioner";
+
+}
+h4{
+	font-size: 20px;
+	font-family: "commissioner";
+	padding: 5% 10%;
+}
+p{
+	font-family: "lato";
+	padding-top: 20%;
+}
+a{
+	color: orange;
+}
+/* Pre loader */
+.loader{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background: lightblue;
+	z-index: 2;
+	overflow: hidden;
+	animation: loader 2s ease 2s;
+    animation-fill-mode: forwards;
+}
+
+.loader .intro{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+}
+
+.loader .intro h3{
+	font-size: 120px;
+	color: orange; 
+}
+@keyframes loader{
+	0%{
+        opacity: 1;
+	}
+	100%{
+		opacity: 0;
+		z-index: -2;
+	}
+}
+/* Landing Page */
+#landingPage{
+	width: 100%;
+	height: 100vh;
+	text-align: center;
+	position: relative;
+}
+.header{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 15%;
+	height: 9%;
+	background-color: lightblue;
+	text-align: center;
+}
+
+.nav{
+	position: absolute;
+	top: 0;
+	right: 2%;
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+	list-style: none;
+}
+li{
+	display: inline-block;
+	padding: 0px 15px;
+}
+li a{
+	transition: all 0.3s ease 0s;
+	text-decoration: none;
+	font-size: 20px;
+	font-family: "commissioner";
+	color: orange;
+	cursor: pointer;
+}
+li a:hover{
+	text-decoration-color: lightblue;
+	text-decoration: line-through;
+}
+.nav-btn{
+	color: #fff;
+    background-color: orange;
+    border-radius: 30px;
+    padding: 8px 25px;
+    text-align: center;
+    cursor: pointer;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    line-height: 26px;
+    font-size: 18px;
+    font-family: "commissioner";
+    border-color: orange;
+    box-shadow: 0px 8px 15px rgba(0,0,0,.4);
+    margin-top: 15px;
+    transition: 0.8s all;
+}
+.title{
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    text-align: left;
+}
+.intro{
+	position: absolute;
+	top: 30%;
+	left: 30%;
+	text-align: left;
+}
+.sidebar{
+	width: 45%;
+	height: 75%;
+	position: absolute;
+	top: 20%;
+	right: 0;
+	background-color: orange;
+}
+.strip{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 7%;
+	height: 35%;
+	background-color: orange;
+}
+
+
+.icons {
+    display: flex;
+    justify-content: flex-end;
+    align-items:center;
+  }
+  
+
+  body {
+	margin: 0;
+	padding: 0;
+  }
+  
+  
+ 
+  /* Style the navigation menu */
+.topnav {
+	overflow: hidden;
+	background-color: orange;
+	position: relative;
+  }
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav #myLinks {
+	display: none;
+  }
+  
+  /* Style navigation menu links */
+  .topnav a {
+	color: white;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 30px;
+	display: block;
+  }
+  
+  /* Style the hamburger menu */
+  .topnav a.icon {
+	background: orange;
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 0;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .topnav a:hover {
+	background-color: lightblue;
+	color: black;
+  }
+  
+  /* Style the active link (or home/logo) */
+  .active {
+	background-color: orange;
+	color: white;
+  }
+  
+  
+/* About */
+#about{
+	width: 100%;
+	height: 100vh;
+	position: relative;
+}
+
+.topbar{
+	position: absolute;
+	top: 10%;
+	left: 0;
+	width: 30%;
+	height: 35%;
+	background-color: lightblue;
+}
+.box{
+	position: absolute;
+	top: 30%;
+	left: 20%;
+	width: 50%;
+	height: 60%;
+	border: 3px solid orange;
+	background-color: transparent;
+}
+.pos{
+	float: right;
+	margin: 15px;
+}
+
+
+
+
+/* skills */
+#skills{
+	width: 100%;
+	height: 110vh;
+	position: relative;
+}
+.sidebar3{
+	position: absolute;
+	top: 5%;
+	right: 0;
+	width: 10%;
+	height: 80%;
+	background-color: lightblue;
+}
+.strip3{
+	position: absolute;
+	top: 8%;
+	right: 0;
+	width: 40%;
+	height: 25%;
+	background-color: orange;
+}
+.sidebar4{
+	position: absolute;
+	top: 5%;
+	left: 0;
+	width: 10%;
+	height: 80%;
+	background-color: lightblue;
+}
+
+.photo{
+	width: 180px;
+	height: 180px;
+	padding: 10px;
+}
+.bio{
+	position: absolute;
+	top: 0;
+	left: 35%;
+	color: white;
+}
+.education{
+	width: 45%;
+	position: absolute;
+	top: 5%;
+	left: 15%;
+}
+.h4{
+	padding: 0;
+	line-height: 0;
+}
+.h3{
+	line-height: 0;
+	font-family: "lato";
+}
+.imp{
+	color: lightblue;
+	padding-left: 30px; 
+}
+.imp2{
+	padding-left: 40px; 
+}
+.experience{
+	width: 45%;
+	position: absolute;
+	top: 50%;
+	left: 15%;
+}
+.skills-set{
+	width: 400px;
+    position: absolute;
+    top: 34%;
+    right: 11%;
+}
+.h2{
+	padding: 0 15px;
+	font-size: 40px;
+	font-family: "lato";
+}
+.li {
+    position: relative;
+    list-style: none;
+    margin: 40px 0;
+    font-weight: 500;
+    text-transform: uppercase;
+    display: block;
+    font-family: "commissioner";
+}
+
+.li:before {
+    content: "";
+    position: absolute;
+    top: calc(100% + 10px);
+    left: 0;
+    width: 100%;
+    height: 15px;
+    background-color: lightblue;
+    box-shadow: 0px 8px 15px rgba(0,0,0,.4);
+    border-radius: 1000px;
+}
+
+.li:after {
+    content: "";
+    position: absolute;
+    top: calc(100% + 10px);
+    left: 0;
+    width: 0;
+    height: 15px;
+    background-color: orange;
+    border-radius: 1000px;
+    animation-duration: .7s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+
+.li.html:after {
+    animation-name: html;
+}
+
+@keyframes html {
+    to {
+        width: 90%;
+    }
+}
+
+.li.css:after {
+    animation-name: css;
+}
+
+@keyframes css {
+    to {
+        width: 80%;
+    }
+}
+
+.li.js:after {
+    animation-name: js;
+}
+
+@keyframes js {
+    to {
+        width: 75%;
+    }
+}
+
+.li.ng:after {
+    animation-name: ng;
+}
+
+@keyframes ng {
+    to {
+        width: 60%;
+    }
+}
+
+
+
+
+/* projects */
+
+.img-wrapper {  
+	width: 400px;
+	height: 400px;
+	overflow: hidden; 
+  }
+  
+  .inner-img {
+	transition: 0.3s;
+  }
+  
+  .inner-img:hover {
+	transform: scale(1.1);
+  }
+#projects{
+	width: 100%;
+	height: 100vh;
+	background-color: orange;
+	position: relative;
+	text-align: center;
+}
+.cover{
+	width: 100%;
+	height: 100%;
+	background-color: lightblue;
+	transform: skewY(-3deg);
+}
+.projects-container{
+	width: 100%;
+	height: 50%;
+	z-index: 1;
+	position: absolute;
+	top: 27%;
+	left: 0;
+}
+.project{
+	width: 30%;
+	height: 100%;
+	padding: 0px 20px;
+	display: inline-block;
+	text-align: center;
+}
+.pro-img{
+	width: 400px;
+	height: 300px;
+	box-shadow: 0px 8px 15px rgba(0,0,0,.4);
+}
+.pro-img:hover {
+	transform: scale(1.1);
+  }
+.pos2{
+	position: absolute;
+	bottom: 5%;
+	left: 43.5%;
+}
+
+
+
+/* contacts */
+#contacts{
+	width: 100%;
+	height: 60vh;
+	text-align: center;
+	position: relative;
+}
+.contact-me{
+	width: 50%;
+	margin-left: 25%;
+	margin-top: 5%;
+}
+
+
+/* footer */
+#footer{
+	width: 100%;
+	height: 30vh;
+	position: relative;
+	background-color: #f6f6f6;
+}
+.logo{
+	position: absolute;
+	top: 10%;
+	left: 0;
+	width: 15%;
+	height: 28%;
+	background-color: lightblue;
+	text-align: center;
+}
+
+.link{
+	display: flex;
+	position: absolute;
+	top: 5%;
+	left: 41%;
+}
+.footer-link{
+  color: orange;
+  font-family: 'commissioner';
+  margin: 15px 12px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.footer-link:hover {
+  color: lightblue;
+}
+.footer-social-icons ul{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%);
+}
+.footer-social-icons ul li{
+    margin: 0 15px;
+    list-style: none;
+}
+.footer-social-icons ul li a{
+    position: relative;
+    display: block;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+    background: orange;
+    border-radius: 50%;
+    box-shadow: 0px 8px 15px rgba(0,0,0,.4);
+    font-size: 30px;
+    color: #666;
+    transition: -5s;
+}
+.footer-social-icons ul li a:before{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: lightblue;
+    transition: .5s;
+    transform: scale(.9);
+    z-index: -1;
+}
+.footer-social-icons ul li a:hover:before{
+    transform: scale(1.1);
+    box-shadow: 0 0 15px lightblue;
+}
+.footer-social-icons ul li a:hover{
+    color: lightblue;
+    box-shadow: 0 0 5px lightblue;
+    text-shadow: 0 0 5px lightblue;
+}
+.sidebar2{
+	width: 30%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	right: 0;
+	background-color: lightblue;
+	text-align: center;
+}
+.strip2{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 7%;
+	height: 50%;
+	background-color: ora;
+}
+
+
+
+
+/* Mobile */
+
+@media screen and (min-width: 360px) and (max-width: 1020px){
+	h3{
+		font-size: 100px;
+	}
+	.line, .li2, .non{
+		display: none;
+	}
+	.header{
+		height: 8%;
+		width: 30%;
+	}
+	.nav-btn{
+		font-size: 50px;
+		padding: 25px 35px;
+	}
+	.nav {
+		top: 3%;
+	}
+	h1{
+		font-size: 140px;
+	}
+	.title, .intro{
+		left: 12%;
+	}
+	.sidebar{
+		height: 68%;
+	}
+	.strip{
+		width: 10%;
+	}
+	h2{
+		font-size: 55px;
+	}
+	
+	.topbar{
+		width: 45%;
+		height: 25%;
+	}
+	.box{
+		width: 75%;
+		top: 25%;
+		left: 15%;
+		height: 63%;
+	}
+	h4{
+		font-size: 45px;
+		padding: 0 5%;
+	}
+	#skills{
+		height: 140vh;
+	}
+	.experience{
+		top: 70%;
+		left: 13%;
+		width: 80%;
+	}
+	.strip3{
+		width: 87%;
+		height: 12%;
+	}
+	.photo{
+		width: 280px;
+		height: 280px;
+	}
+	.bio{
+		left: 37%;
+	}
+	.skills-set{
+		width: 700px;
+		left: 12%;
+		top: 20%;
+	}
+	.h2{
+		font-size: 90px;
+	}
+	.li{
+		font-size: 45px;
+	}
+	.li:before, .li:after{
+		height: 25px;
+	}
+	
+	.education{
+        top: 43%;
+        left: 13%;
+        width: 70%;
+	}
+	.h4{
+		font-size: 50px;
+	}
+	.sidebar3, .sidebar4{
+		height: 90%;
+	}
+	#projects{
+		height: 115vh;
+	}
+	
+	.project-title{
+		top: 3%;
+		left: 30%;
+	}
+	.projects-container{
+		top: 14%;
+	}
+	.project{
+		display: block;
+		width: 100%;
+		height: 50%;
+		padding: 0;
+	}
+	.pro-img{
+		width: 700px;
+		height: 350px;
+	}
+	.pos2{
+		bottom: 3%;
+		left: 30%;
+	}
+	#contacts{
+		height: 50vh;
+	}
+	.contact-me{
+	    width: 90%;
+	    margin: 20% 5%;
+    }
+    .p2{
+    	font-size: 55px;
+    }
+    
+    .logo{
+    	width: 27%;
+    }
+    .sidebar2{
+    	width: 100%;
+    	height: 20%;
+    	top: 80%;
+    }
+    .strip2{
+    	height: 100%;
+    }
+    p{
+    	padding: 0;
+    	font-size: 35px;
+    }
+    
+    .link{
+    	top: 15%;
+    	left: 33%;
+    }
+    .footer-link{
+    	font-size: 60px;
+    }
+    .footer-social-icons ul{
+    	top: 46%;
+    	left: 63%;
+    }
+    .footer-social-icons ul li a{
+    	width: 100px;
+    	height: 100px;
+    	font-size: 60px;
+    	line-height: 100px;
+    }
+}
